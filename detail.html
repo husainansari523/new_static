@@ -34,36 +34,11 @@
             <nav class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-3">
-                        <a class="navbar-brand d-flex align-items-center" href="#">
-                            <img src="images/logo.png" alt="Logo" class="img-fluid header-main-logo" />
-                        </a>
-                    </div>
-                    <div class="col-md-4 offset-1">
-                        <div class="row">
-                            <img src="images/logo_full.png" class="img-fluid header-center-logo" alt="">
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <ul class="navigation mb-0 mt-2">
-                                    <li><a href="">
-                                            <h5>Marathi</h5>
-                                        </a></li>
-                                    <li class="nav-divider"><a href="">
-                                            <h5>Hindi</h5>
-                                        </a></li>
-                                    <li class="nav-divider"><a href="">
-                                            <h5>Gujarati</h5>
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 offset-1">
-                        <div class="d-flex justify-content-end">
+                        <div class="d-flex justify-content-start">
                             <a href="#" class="header-btn btn me-3 p-0">Sign In</a>
                             <a href="#" class="header-btn btn btn-danger p-0">Subscribe</a>
                         </div>
-                        <div class="d-flex justify-content-end social-icons mt-2">
+                        <div class="d-flex justify-content-start social-icons mt-2">
                             <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-x-twitter"></i></a>
                             <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-instagram"></i></a>
@@ -71,6 +46,24 @@
                             <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-linkedin"></i></a>
                             <a href="#" class="header-btn btn p-0"><i class="fa-brands fa-whatsapp"></i></a>
                         </div>
+                    </div>
+                    <div class="col-md-4 offset-1">
+                        <div class="row">
+                            <img src="images/logo_full.png" class="img-fluid header-center-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-1">
+                        <ul class="navigation mb-0 mt-2 text-end">
+                            <li><a href="">
+                                    <h5>Marathi</h5>
+                                </a></li>
+                            <li class="nav-divider position-relative"><a href="">
+                                    <h5>Hindi</h5>
+                                </a></li>
+                            <li class="nav-divider position-relative"><a href="">
+                                    <h5>Gujarati</h5>
+                                </a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -151,23 +144,30 @@
                                     </h1>
                                 </div>
                                 <div class="d-flex justify-content-between mb-4">
-                                    <div class="fs-5 ms-5">By <a href="#" class="position-relative article-by fw-semibold text-decoration-none text-dark">The
+                                    <div class="fs-5 ms-5">By <a href="#"
+                                            class="position-relative article-by fw-semibold text-decoration-none text-dark">The
                                             Journalists</a>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <img src="images/share-chip.png" class="img-fluid" style="height: 35px;" alt="">
                                         <span class="fw-semibold mx-3 fs-5">Share</span>
                                         <div class="share-container position-relative">
-                                            <div class="share-button bg-transparent pe-0" onclick="toggleShareMenu()"> <i
-                                                    class="fa-solid fa-share-nodes text-dark fs-1"></i>
+                                            <div class="share-button bg-transparent pe-0" onclick="toggleShareMenu()">
+                                                <i class="fa-solid fa-share-nodes text-dark fs-3"></i>
                                             </div>
                                             <div class="share-social-icons" id="socialIcons">
-                                                <a href="#" class="position-relative social-border-bottom" title="Facebook"><i class="fa-brands fa-facebook-f fs-4"></i></a>
-                                                <a href="#" class="position-relative social-border-bottom" title="Twitter"><i class="fa-brands fa-x-twitter fs-4"></i></a>
-                                                <a href="#" class="position-relative social-border-bottom" title="Instagram"><i class="fa-brands fa-instagram fs-4"></i></a>
-                                                <a href="#" class="position-relative social-border-bottom" title="Youtube"><i class="fa-brands fa-youtube fs-4"></i></a>
-                                                <a href="#" class="position-relative social-border-bottom" title="Linkedin"><i class="fa-brands fa-linkedin fs-4"></i></a>
-                                                <a href="#" title="WhatsApp"><i class="fa-brands fa-whatsapp fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Facebook"><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Twitter"><i class="fa-brands fa-x-twitter fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Instagram"><i class="fa-brands fa-instagram fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Youtube"><i class="fa-brands fa-youtube fs-4"></i></a>
+                                                <a href="#" class="position-relative social-border-bottom"
+                                                    title="Linkedin"><i class="fa-brands fa-linkedin fs-4"></i></a>
+                                                <a href="#" title="WhatsApp"><i
+                                                        class="fa-brands fa-whatsapp fs-4"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -177,8 +177,8 @@
 
 
                         <div class="position-relative p-0 mb-5">
-                           <div class="main-article-thumbnail overflow-hidden rounded-5">
-                               <img src="images/page1-main-news.png" class="img-fluid" alt="article-thumbnail-img">
+                            <div class="main-article-thumbnail overflow-hidden rounded-5">
+                                <img src="images/page1-main-news.png" class="img-fluid" alt="article-thumbnail-img">
                             </div>
                             <span class="main-article-chip main-article-chip-bg">National</span>
 
@@ -235,7 +235,7 @@
                             </p>
                         </div>
 
-                        <div class="row">
+                        <div class="row pt-md-4">
                             <div class="col-md-8 mb-3">
                                 <p class="mb-3"><b>10:14 AM . Oct 18, 2024</b></p>
                                 <div class="text-align-end">
@@ -383,13 +383,15 @@
 
 
                 <!-- Right Side -->
-                <div class="col-md-3">
-                    <img src="images/page1-right-adv-img.jpg" class="img-fluid mb-5 ps-md-3 w-auto" alt="">
+                <div class="col-md-3 ps-md-5">
+                    <div class="ad-section-1 mt-4">
+                        <img src="images/page1-right-adv-img.jpg" alt="" class="img-fluid w-100">
+                    </div>
                     <div class="sidebar-wrapper ps-md-3">
-                        <div class="position-relative">
+                        <div class="position-relative mt-md-5">
                             <!-- <h3 class="medium-yellow-dot fw-semibold ms-4">At Your Zone</h3> -->
                             <!-- <h3 class="top-headline ms-4">At Your Zone</h3> -->
-                            <h3 class="article-sidebar">Top Headline</h3>
+                            <h3 class="article-sidebar">At Your Zone</h3>
                             <!-- <span class="position-relative aside-heading-bar" style="width: 100%; color: red;"></span> -->
                             <div class="card headline-card no-border">
                                 <div class="card-body p-0">
